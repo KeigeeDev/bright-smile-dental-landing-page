@@ -16,3 +16,27 @@ body {
     /* Improves readability */
     color: var(--text-color);
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--bg-color);
+}
+
+#hero {
+    padding: 4rem 1rem;
+    text-align: center;
+    background-color: var(--bg-color);
+}
+
+#hero a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
