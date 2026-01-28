@@ -394,4 +394,14 @@ footer hr {
         margin: 1rem auto;
         width: 30%;
     }
+
+    footer .footer-content {
+        width: 50%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+
 }
