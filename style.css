@@ -154,7 +154,8 @@ header {
 }
 
 #contact form {
-    margin: 2rem 1rem;
+    margin: 2rem auto;
+    width: 75%;
     padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
@@ -372,5 +373,25 @@ footer hr {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
+    }
+
+    #features li {
+        height: auto;
+        padding: 1rem;
+    }
+
+    #features li svg {
+        margin: 1rem 0;
+    }
+
+    .testimonials {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+
+    #contact form {
+        margin: 1rem auto;
+        width: 30%;
     }
 }
