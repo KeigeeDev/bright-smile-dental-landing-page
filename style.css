@@ -318,6 +318,10 @@ footer hr {
     margin: 0.5rem 0;
 }
 
+#contact form label {
+    display: none;
+}
+
 
 @media (min-width: 768px) {
     header {
