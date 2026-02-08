@@ -13,3 +13,6 @@ This is a **static landing page** built with a **mobile-first approach**.
 ## Technologies Used
 - HTML5
 - CSS3
+
+## Live Demo
+- [Live Demo](https://keigeedev.github.io/bright-smile-dental-landing-page/)
